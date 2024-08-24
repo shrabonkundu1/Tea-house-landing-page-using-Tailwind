@@ -111,7 +111,7 @@
         </section>
 
         <!-- fresh section -->
-         <section class="mb-24">
+         <section class="md:mb-24 mb-12">
             <div class="grid grid-cols-1 lg:grid-cols-2 ">
                 <!-- images-->
                  <div class="grid grid-cols-2 grid-rows-3 w-11/12 gap-6">
@@ -143,8 +143,8 @@
          </section>
 
          <!-- unic card section -->
-          <section class="rounded-lgmb-24 bg-gradient-to-r from-orange-500 to-red-500 px-16 py-16 relative rounded-lg mb-32">
-            <div class="grid md:grid-cols-2 items-center">
+          <section class="hidden md:flex rounded-lg mb-24 bg-gradient-to-r from-orange-500 to-red-500 px-16 py-16 relative ">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center">
                 <!-- unic card content -->
                 <div class="md:w-5/6">
                     <h1 class="-mb-4 md:w-3/4 md:mb-5 text-3xl md:text-4xl text-white font-extrabold md:leading-tight">Meet Our Super Clients</h1>
@@ -204,9 +204,9 @@
 
           <section class=" mb-20 md:mb-32">
             <!-- News & Events title -->
-           <div class="text-center">
+           <div class="md:text-center text-left">
             <h2 class="text-3xl md:text-5xl font-extrabold text-[#1C1C1C] mb-7">News & Events </h2>
-            <p class="text-center font-medium text-[#777777] md:w-3/4 mx-auto mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+            <p class="md:text-center font-medium text-[#777777] md:w-3/4 mx-auto mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
            </div>
           <div class="grid md:grid-cols-3 gap-5">
              <!-- tea card 1 -->
@@ -243,19 +243,19 @@
       <footer class="bg-gradient-to-b from-[#fff3eb] to-[#fff2ea] " > 
         <!-- footer container  -->
         <div class="max-w-screen-xl mx-auto px-10 md:px-20 ">
-            <div class=" flex justify-between pt-32 mb-24">
+            <div class=" flex justify-between md:pt-24 pt-16 lg:pt-32 mb-12 md:mb-24 ">
                 <!-- logo img  -->
                  <div>
                     <img src="./images/cup.png" alt="Logo">
                  </div>
                  <!-- btn primary -->
                  <div class="flex gap-6 items-center">
-                    <a class="text-xl font-medium text-[#494949]" href="#">Ready to get started?</a>
-                    <button class=" mr-20">
-                        <p class="font-bold text-white px-4 py-4 pr-11 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-md">Explore More</p                </button>
+                    <a class="hidden md:grid text-xl font-medium text-[#494949]" href="#">Ready to get started?</a>
+                    <button class=" md:mr-20">
+                        <p class="font-bold text-white px-4 py-4 pr-11 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-md">Explore More</p>                </button>
                  </div>
             </div>
-           <div class="flex justify-between">
+           <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between">
              <!-- quicklinks -->
              <div class="mb-24">
                 <h3 class="text-[#1C1C1C] text-xl font-semibold mb-6">Quick Links</h3>
@@ -287,9 +287,9 @@
             <!-- Input area -->
             <!-- news letter  -->
             <div class="">
-                <h3 class="text-2xl font-bold leading-relaxed w-3/4 mb-11">Subscribe to our newsletter</h3>
+                <h3 class="text-2xl font-bold leading-relaxed w-full md:w-3/4 mb-5 md:mb-11">Subscribe to our newsletter</h3>
                 <div class="flex">
-                    <input class="bg-transparent border-b-2 border-gray-400 w-full pb-5 mb-12" type="email" placeholder="Email address">
+                    <input class="bg-transparent border-b-2 border-gray-400 w-full pb-5 mb-6 md:mb-12" type="email" placeholder="Email address">
                     <i class="fa-solid fa-angle-right text-xl bg-gradient-to-r from-orange-500 to-red-500 rounded-full w-10 h-9 flex justify-center items-center"></i>
                 </div>
                   <!-- social icon -->
